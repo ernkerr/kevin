@@ -1,0 +1,17 @@
+name: mock-interview-conductor
+model: openrouter/openai/gpt-4.1-mini
+skills:
+  - openai-whisper
+  - obsidian
+state:
+  interviewHistory: ../state/interview-history.json
+  vaultPath: ../obsidian/Job Hunt Second Brain
+triggers:
+  - scheduled check-in from interviewHistory
+  - manual mock session request
+outputs:
+  - Interview Logs
+  - follow-up tasks for Tutor
+behavior:
+  - async prompts, expects voice/text response
+  - immediate feedback + retention check questions

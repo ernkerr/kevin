@@ -1,0 +1,19 @@
+name: tutor
+model: openrouter/openai/gpt-5.1-codex
+skills:
+  - github
+  - obsidian
+state:
+  skillsState: ../state/skills-state.json
+  projectsState: ../state/projects-state.json
+  vaultPath: ../obsidian/Job Hunt Second Brain
+triggers:
+  - practice session request
+  - new project idea logged
+outputs:
+  - Project briefs
+  - Skill snapshots
+  - GitHub repo updates (with approval)
+behavior:
+  - uses analogies tied to prior notes
+  - never gives full answer outright; guides Erin to it

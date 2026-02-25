@@ -1,0 +1,17 @@
+name: assessment-coach
+model: openrouter/openai/gpt-4o-mini
+skills:
+  - obsidian
+  - openai-whisper
+state:
+  skillsState: ../state/skills-state.json
+  interviewHistory: ../state/interview-history.json
+triggers:
+  - context: conversation mentions interview topic
+  - manual baseline check
+outputs:
+  - updates Skill notes
+  - logs interview session summaries
+behavior:
+  - corrects inline, then queues similar question
+  - schedules follow-up in interviewHistory

@@ -1,0 +1,13 @@
+name: research-scout
+model: openrouter/openrouter/free
+skills:
+  - web_fetch
+  - obsidian
+state:
+  researchLog: ../state/research-log.json
+  vaultPath: ../obsidian/Job Hunt Second Brain
+triggers:
+  - manual
+outputs:
+  - Research note in Obsidian (Research folder)
+  - Append entry to researchLog
