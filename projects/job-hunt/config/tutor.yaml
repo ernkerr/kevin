@@ -1,5 +1,6 @@
 name: tutor
-model: openrouter/openai/gpt-5.1-codex
+model: openrouter/openai/gpt-4o-mini
+fallbackModel: openrouter/openai/gpt-5.1-codex
 skills:
   - github
   - obsidian
