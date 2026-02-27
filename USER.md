@@ -7,6 +7,8 @@ _Learn about the person you're helping. Update this as you go._
 - **Pronouns:** 
 - **Timezone:** America/Los_Angeles (PST)
 - **Notes:**
+  - Birthday: July 12, 1999
+  - Use Find My location for all tasks that need Erin's location
 
 ## Context
 

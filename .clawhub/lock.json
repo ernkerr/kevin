@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1772005266293
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1772007084869
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1772008508617
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1772008685755
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1772009231188
+    },
+    "frontend-design": {
+      "version": "1.0.0",
+      "installedAt": 1772009417302
+    },
+    "clawddocs": {
+      "version": "1.2.2",
+      "installedAt": 1772042088102
+    }
+  }
+}

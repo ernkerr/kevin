@@ -1,0 +1,12 @@
+{
+  "channel": "telegram",
+  "accountId": "tutor",
+  "agent": "main",
+  "sessions": {
+    "name": "job-hunt-tutor",
+    "description": "Tutor sub-agent for Erin's job hunt"
+  },
+  "skills": [
+    "skill-tutor"
+  ]
+}
